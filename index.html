@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator with Social Sharing</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inspirational Quote Generator</h1>
+        <div class="quote-box">
+            <p id="quote">Click the button to generate a quote!</p>
+            <span id="author"></span>
+        </div>
+        <button class="btn" id="generate-btn">Generate Quote</button>
+        <div class="share" style="display: none;">
+            <h3>Share this quote on</h3>
+            <div class="social-medias">
+                <button class="social-btn" id="share-btn-fb"><i class="fa-brands fa-facebook"></i></button>
+                <button class="social-btn" id="share-btn-twt"><i class="fa-brands fa-twitter"></i></button>
+                <button class="social-btn" id="share-btn-li"><i class="fa-brands fa-linkedin"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quotes JS -->
+    <script src="./quotes.js"></script>
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
